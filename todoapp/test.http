@@ -1,0 +1,20 @@
+### 1. Get all tasks
+GET http://localhost:8080/api/tasks
+
+
+### 2. Add new task
+POST http://localhost:8080/api/tasks
+Content-Type: application/json
+
+{
+  "title": "Learn Spring Boot",
+  "completed": false
+}
+
+
+### 3. Delete task
+DELETE http://localhost:8080/api/tasks/6
+
+
+### 4. Toggle task
+PUT http://localhost:8080/api/tasks/3
